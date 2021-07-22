@@ -1,2 +1,2 @@
 # eab-python-class
-Resources for 
+Resources for EAB research's python coding class.
