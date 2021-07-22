@@ -1,0 +1,13 @@
+Let’s imagine you’re tasked with creating a simulation visualizing how impact interactions affect renewals.
+
+You’ll start out by asking the user for the number of impact interactions the first partner who’s coming up for renewal had in the past year.
+
+The program will then randomly determine whether that particular partner renewed based on the frequency that partners renew if they’ve had that many impact interactions.
+
+Here are the frequencies to use for making the call on whether a partner renewed or not: If a partner has had 0 impact interactions, they have a 30% chance of renewing. If they have had 1-2 impact interactions, they have a 50% chance of renewing. For 3-4, it’s 70%, and for 5+ it’s 80%.
+
+(Hint: the random module, if statements, Boolean statements, and comparison operators should all figure into this determination.)
+
+When it decides if the first partner is a renewal or a drop, it should display the total number of renewals and the total number of drops up until that point in the program (a la the wins/losses/ties display in the rock/paper/scissors program from ATBS). It should start at 0 for both categories.
+
+It should then ask the user for the next partner’s impact interaction count and repeat the whole rest of the process. It should keep going until the user enters a lowercase “q”, at which point it should exit.
