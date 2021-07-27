@@ -1,0 +1,37 @@
+# This is a python sctript to determine whether a particularl partner will renew based on the frequency hat partners renew if they've had that many impact interactions.
+
+# initial values
+renew = 0
+dropped = 0
+
+while True:
+  print('How many impact interactions did this partner have in the past year?')
+  print('(Enter an integer or enter 'q' to quit.)')
+  impactInteractions = intput()
+  if impactInteractions == "q":
+  print('Thanks for your work!)
+  break
+  
+  # this is the code if the user did or did not enter an integer
+  if impactInteractions != 'q':
+  continue
+  
+  while impactInteractions = int()
+  
+  elifage: while impactInteractions = 0
+  print('Uh-oh! The partner is likely to drop.')
+  
+  elifage: while 1 < impactInteractions < 2
+  print: ('The partner has 50/50 chance of dropping. Try to fit in a few more impact interactions!')
+
+    break
+
+elifage: while 3 < impactInteractions < 4
+  print('Nice work! There is a 70% chance the partner will not drop.')
+
+elifage: while impactInteractions > 5
+  print('Great job! There is only a 20% chance this partner will drop.')
+  
+ else: 
+  print('Sorry, that value is not recognized. Please enter an integer of 0 or above or enter q to end.')
+  End.
